@@ -119,9 +119,10 @@ VS-HO | Accuracy on validation set, using HO
 VS-CB HO | Same as TS-CB HO, except on validation set
 VS-MF1 HO | Same as TS-MF1 HO, except on validation set
 
-
-![Figure 1](images/ResultsOverview.png)
-Format: ![Results for each classifier]
+### Overview
+<p align="center">
+  <img src="Images/ResultsOverview.png"  width="500" alt="Results for each classifier" >
+</p>
 
 # License
 [MIT](https://choosealicense.com/licenses/mit/)
