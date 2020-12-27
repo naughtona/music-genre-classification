@@ -121,7 +121,7 @@ VS-MF1 HO | Same as TS-MF1 HO, except on validation set
 
 ### Overview
 <p align="center">
-  <img src="Images/ResultsOverview.png"  width="500" alt="Results for each classifier" >
+  <img src="images/ResultsOverview.png"  width="500" alt="Results for each classifier" >
 </p>
 
 # License
