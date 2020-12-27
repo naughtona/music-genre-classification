@@ -101,4 +101,27 @@ The steps taken are:
 5. Calculate Mutual Information score of each word root with three binarized `y` labels individually.
 6. Display the top 20 highest Mutual Information scoring word roots for each of the three genres we have selected.
 
+## Results
 
+We found that the stacking ensemble was indeed valuable in predicting music genre and could outperform all of its base estimators, as can be seen in Figure 1.
+
+The vertical axis represents the accuracy scored by the model, while the horizontal axis denotes the test-sets used. Each line in the plot is a different model, color-coded as per the legend. 
+
+Note the following test set abbreviations:
+
+
+Abbreviated Form| Meaning
+------------ | -------------
+TS-2FCV | Accuracy on training set, using a stratified-variant of 2- Fold Cross Validation (2FCV)
+TS-CB HO | Simple average of each class’s accuracy on training set, using holdout strategy (HO)
+TS-MF1 HO | F-measure where relative contribution of precision and recall are equal on training set, using HO
+VS-HO | Accuracy on validation set, using HO
+VS-CB HO | Same as TS-CB HO, except on validation set
+VS-MF1 HO | Same as TS-MF1 HO, except on validation set
+
+
+![Figure 1](images/ResultsOverview.png)
+Format: ![Results for each classifier]
+
+# License
+[MIT](https://choosealicense.com/licenses/mit/)
